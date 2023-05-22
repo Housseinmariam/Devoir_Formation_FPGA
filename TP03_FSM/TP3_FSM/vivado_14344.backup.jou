@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri May 19 19:05:32 2023
+# Process ID: 14344
+# Current directory: E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2076 E:\Formation_SAFRAN\Composant_FPGA\Doriane\TP03_FSM\TP3_FSM\TP3_FSM.xpr
+# Log file: E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/vivado.log
+# Journal file: E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM\vivado.jou
+# Running On: LAPTOP-4DJ15C90, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 2, Host memory: 6322 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+close_sim
+launch_simulation
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+close_sim
+launch_simulation
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+close_sim
+launch_simulation
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+close_sim
+launch_simulation
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+close_sim
+launch_simulation
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+close_design
+open_run synth_1 -name synth_1
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list clk_IBUF_BUFG ]]
+set_property port_width 2 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {next_state[0]} {next_state[1]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 28 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {Clk_cnt[0]} {Clk_cnt[1]} {Clk_cnt[2]} {Clk_cnt[3]} {Clk_cnt[4]} {Clk_cnt[5]} {Clk_cnt[6]} {Clk_cnt[7]} {Clk_cnt[8]} {Clk_cnt[9]} {Clk_cnt[10]} {Clk_cnt[11]} {Clk_cnt[12]} {Clk_cnt[13]} {Clk_cnt[14]} {Clk_cnt[15]} {Clk_cnt[16]} {Clk_cnt[17]} {Clk_cnt[18]} {Clk_cnt[19]} {Clk_cnt[20]} {Clk_cnt[21]} {Clk_cnt[22]} {Clk_cnt[23]} {Clk_cnt[24]} {Clk_cnt[25]} {Clk_cnt[26]} {Clk_cnt[27]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 28 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {COUNTER/Clk_counter[0]} {COUNTER/Clk_counter[1]} {COUNTER/Clk_counter[2]} {COUNTER/Clk_counter[3]} {COUNTER/Clk_counter[4]} {COUNTER/Clk_counter[5]} {COUNTER/Clk_counter[6]} {COUNTER/Clk_counter[7]} {COUNTER/Clk_counter[8]} {COUNTER/Clk_counter[9]} {COUNTER/Clk_counter[10]} {COUNTER/Clk_counter[11]} {COUNTER/Clk_counter[12]} {COUNTER/Clk_counter[13]} {COUNTER/Clk_counter[14]} {COUNTER/Clk_counter[15]} {COUNTER/Clk_counter[16]} {COUNTER/Clk_counter[17]} {COUNTER/Clk_counter[18]} {COUNTER/Clk_counter[19]} {COUNTER/Clk_counter[20]} {COUNTER/Clk_counter[21]} {COUNTER/Clk_counter[22]} {COUNTER/Clk_counter[23]} {COUNTER/Clk_counter[24]} {COUNTER/Clk_counter[25]} {COUNTER/Clk_counter[26]} {COUNTER/Clk_counter[27]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 2 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {current_state[0]} {current_state[1]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list OUT_B_OBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list OUT_R_OBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
+connect_debug_port u_ila_0/probe6 [get_nets [list OUT_V_OBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe7]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe7]
+connect_debug_port u_ila_0/probe7 [get_nets [list resetn_IBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe8]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe8]
+connect_debug_port u_ila_0/probe8 [get_nets [list Restart_IBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe9]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe9]
+connect_debug_port u_ila_0/probe9 [get_nets [list COUNTER/LED_State_reg_0 ]]
+reset_run synth_1
+save_constraints -force
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.bit} [get_hw_devices xc7z010_1]
+set_property PROBES.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.ltx} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {current_state} }
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {next_state} }
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {COUNTER/Clk_counter} }
+close_sim
