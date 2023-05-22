@@ -1,0 +1,602 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri May 19 19:05:32 2023
+# Process ID: 14344
+# Current directory: E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2076 E:\Formation_SAFRAN\Composant_FPGA\Doriane\TP03_FSM\TP3_FSM\TP3_FSM.xpr
+# Log file: E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/vivado.log
+# Journal file: E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM\vivado.jou
+# Running On: LAPTOP-4DJ15C90, OS: Windows, CPU Frequency: 2712 MHz, CPU Physical cores: 2, Host memory: 6322 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:18 . Memory (MB): peak = 1102.828 ; gain = 293.219
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_tp_fsm'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_tp_fsm' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_tp_fsm_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/tp_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tp_fsm'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.counter_unit [\counter_unit(time_value=6)\]
+Compiling architecture behavioral of entity xil_defaultlib.tp_fsm [tp_fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_tp_fsm
+Built simulation snapshot tb_tp_fsm_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_tp_fsm_behav -key {Behavioral:sim_1:Functional:tb_tp_fsm} -tclbatch {tb_tp_fsm.tcl} -view {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1131.773 ; gain = 22.738
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_tp_fsm_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 1131.773 ; gain = 28.602
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_tp_fsm'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_tp_fsm' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_tp_fsm_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/tb_tp_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_tp_fsm'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.counter_unit [\counter_unit(time_value=6)\]
+Compiling architecture behavioral of entity xil_defaultlib.tp_fsm [tp_fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_tp_fsm
+Built simulation snapshot tb_tp_fsm_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_tp_fsm_behav -key {Behavioral:sim_1:Functional:tb_tp_fsm} -tclbatch {tb_tp_fsm.tcl} -view {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_tp_fsm_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1143.883 ; gain = 0.781
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_tp_fsm'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_tp_fsm' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_tp_fsm_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/tp_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tp_fsm'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.counter_unit [\counter_unit(time_value=6)\]
+Compiling architecture behavioral of entity xil_defaultlib.tp_fsm [tp_fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_tp_fsm
+Built simulation snapshot tb_tp_fsm_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_tp_fsm_behav -key {Behavioral:sim_1:Functional:tb_tp_fsm} -tclbatch {tb_tp_fsm.tcl} -view {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_tp_fsm_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1476.793 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_tp_fsm'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_tp_fsm' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_tp_fsm_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/tp_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tp_fsm'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.counter_unit [\counter_unit(time_value=6)\]
+Compiling architecture behavioral of entity xil_defaultlib.tp_fsm [tp_fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_tp_fsm
+Built simulation snapshot tb_tp_fsm_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_tp_fsm_behav -key {Behavioral:sim_1:Functional:tb_tp_fsm} -tclbatch {tb_tp_fsm.tcl} -view {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_tp_fsm_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1476.793 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_tp_fsm'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_tp_fsm' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_tp_fsm_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/tp_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tp_fsm'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.counter_unit [\counter_unit(time_value=6)\]
+Compiling architecture behavioral of entity xil_defaultlib.tp_fsm [tp_fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_tp_fsm
+Built simulation snapshot tb_tp_fsm_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_tp_fsm_behav -key {Behavioral:sim_1:Functional:tb_tp_fsm} -tclbatch {tb_tp_fsm.tcl} -view {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_tp_fsm_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1476.793 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_tp_fsm'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_tp_fsm' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_tp_fsm_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/tp_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tp_fsm'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tp_fsm_behav xil_defaultlib.tb_tp_fsm -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.counter_unit [\counter_unit(time_value=6)\]
+Compiling architecture behavioral of entity xil_defaultlib.tp_fsm [tp_fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_tp_fsm
+Built simulation snapshot tb_tp_fsm_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_tp_fsm_behav -key {Behavioral:sim_1:Functional:tb_tp_fsm} -tclbatch {tb_tp_fsm.tcl} -view {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/tb_tp_fsm_behav.wcfg
+source tb_tp_fsm.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_tp_fsm_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1476.793 ; gain = 0.000
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.srcs/utils_1/imports/synth_1/tp_fsm.dcp with file E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/synth_1/tp_fsm.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/synth_1
+
+launch_runs synth_1 -jobs 3
+[Fri May 19 19:16:34 2023] Launched synth_1...
+Run output will be captured here: E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1601.762 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/Cora-Z7-10-Master.xdc]
+WARNING: [Vivado 12-507] No nets matched 'current_state__0[0]'. [E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/Cora-Z7-10-Master.xdc:171]
+WARNING: [Vivado 12-507] No nets matched 'current_state__0[1]'. [E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/Cora-Z7-10-Master.xdc:171]
+CRITICAL WARNING: [Common 17-162] Invalid option value specified for '-nets'. [E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/Cora-Z7-10-Master.xdc:171]
+Finished Parsing XDC File [E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/Cora-Z7-10-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1717.703 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:16 . Memory (MB): peak = 1819.832 ; gain = 343.039
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1826.078 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/Cora-Z7-10-Master.xdc]
+Finished Parsing XDC File [E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/Cora-Z7-10-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1826.078 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+connect_debug_port u_ila_0/clk [get_nets [list clk_IBUF_BUFG ]]
+set_property port_width 2 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {next_state[0]} {next_state[1]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 28 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {Clk_cnt[0]} {Clk_cnt[1]} {Clk_cnt[2]} {Clk_cnt[3]} {Clk_cnt[4]} {Clk_cnt[5]} {Clk_cnt[6]} {Clk_cnt[7]} {Clk_cnt[8]} {Clk_cnt[9]} {Clk_cnt[10]} {Clk_cnt[11]} {Clk_cnt[12]} {Clk_cnt[13]} {Clk_cnt[14]} {Clk_cnt[15]} {Clk_cnt[16]} {Clk_cnt[17]} {Clk_cnt[18]} {Clk_cnt[19]} {Clk_cnt[20]} {Clk_cnt[21]} {Clk_cnt[22]} {Clk_cnt[23]} {Clk_cnt[24]} {Clk_cnt[25]} {Clk_cnt[26]} {Clk_cnt[27]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 28 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {COUNTER/Clk_counter[0]} {COUNTER/Clk_counter[1]} {COUNTER/Clk_counter[2]} {COUNTER/Clk_counter[3]} {COUNTER/Clk_counter[4]} {COUNTER/Clk_counter[5]} {COUNTER/Clk_counter[6]} {COUNTER/Clk_counter[7]} {COUNTER/Clk_counter[8]} {COUNTER/Clk_counter[9]} {COUNTER/Clk_counter[10]} {COUNTER/Clk_counter[11]} {COUNTER/Clk_counter[12]} {COUNTER/Clk_counter[13]} {COUNTER/Clk_counter[14]} {COUNTER/Clk_counter[15]} {COUNTER/Clk_counter[16]} {COUNTER/Clk_counter[17]} {COUNTER/Clk_counter[18]} {COUNTER/Clk_counter[19]} {COUNTER/Clk_counter[20]} {COUNTER/Clk_counter[21]} {COUNTER/Clk_counter[22]} {COUNTER/Clk_counter[23]} {COUNTER/Clk_counter[24]} {COUNTER/Clk_counter[25]} {COUNTER/Clk_counter[26]} {COUNTER/Clk_counter[27]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 2 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {current_state[0]} {current_state[1]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list OUT_B_OBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list OUT_R_OBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
+connect_debug_port u_ila_0/probe6 [get_nets [list OUT_V_OBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe7]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe7]
+connect_debug_port u_ila_0/probe7 [get_nets [list resetn_IBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe8]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe8]
+connect_debug_port u_ila_0/probe8 [get_nets [list Restart_IBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe9]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe9]
+connect_debug_port u_ila_0/probe9 [get_nets [list COUNTER/LED_State_reg_0 ]]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.srcs/utils_1/imports/synth_1/tp_fsm.dcp with file E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/synth_1/tp_fsm.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/synth_1
+
+save_constraints -force
+launch_runs impl_1 -jobs 3
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri May 19 19:22:55 2023] Launched synth_1...
+Run output will be captured here: E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/synth_1/runme.log
+[Fri May 19 19:22:55 2023] Launched impl_1...
+Run output will be captured here: E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/runme.log
+close_design
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Fri May 19 19:31:55 2023] Launched impl_1...
+Run output will be captured here: E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 05 2022-01:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1854.273 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210370AD527DA
+open_hw_target: Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 3842.828 ; gain = 1988.555
+set_property PROGRAM.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.bit} [get_hw_devices xc7z010_1]
+set_property PROBES.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.ltx} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.runs/impl_1/tp_fsm.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+INFO: [Labtools 27-2302] Device xc7z010 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+WARNING: Simulation object current_state__0 was not found in the design.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2023-May-19 19:35:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2023-May-19 19:35:20
+INFO: [Labtools 27-3304] ILA Waveform data saved to file E:/Formation_SAFRAN/Composant_FPGA/Doriane/TP03_FSM/TP3_FSM/TP3_FSM.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {current_state} }
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {next_state} }
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {COUNTER/Clk_counter} }
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210370AD527DA
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 19 19:40:49 2023...

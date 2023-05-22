@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "compteur_de_cycle_behav" "xil_defaultlib.compteur_de_cycle" -log "elaborate.log" 
